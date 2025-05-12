@@ -6,7 +6,7 @@ function Home() {
 
       <div className="container text-center mt-5">
         {/* Logo */}
-        <img src="/my-react-app/images/logo.jpg" 
+        <img src="/images/logo.jpg" 
         alt="C2 Cleaning Logo" className="img-fluid mb-4" style={{ maxWidth: '1000px' }} />
   
         {/* Hero Heading */}
