@@ -43,15 +43,15 @@ function Contact() {
 
           {/* Social Icons */}
           <div className="d-flex justify-content-center gap-4 mt-4">
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="text-decoration-none text-primary fs-4">
+            <Link to="https://linkedin.com" target="_blank" rel="noreferrer" className="text-decoration-none text-primary fs-4">
               <FaLinkedin />
-            </a>
-            <a href="https://github.com" target="_blank" rel="noreferrer" className="text-decoration-none text-dark fs-4">
+            </Link>
+            <Link to="https://github.com" target="_blank" rel="noreferrer" className="text-decoration-none text-dark fs-4">
               <FaGithub />
-            </a>
-            <a href="https://twitter.com" target="_blank" rel="noreferrer" className="text-decoration-none text-info fs-4">
+            </Link>
+            <Link to="https://twitter.com" target="_blank" rel="noreferrer" className="text-decoration-none text-info fs-4">
               <FaTwitter />
-            </a>
+            </Link>
           </div>
         </Card.Body>
       </Card>

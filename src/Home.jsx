@@ -6,7 +6,7 @@ function Home() {
 
       <div className="container text-center mt-5">
         {/* Logo */}
-        <img src="images/logo.jpg" 
+        <img src=".\public\images\logo.jpg" 
         alt="C2 Cleaning Logo" className="img-fluid mb-4" style={{ maxWidth: '1000px' }} />
   
         {/* Hero Heading */}
@@ -17,8 +17,8 @@ function Home() {
   
         {/* Call to Action Buttons */}
         <div className="mt-4">
-          <a href="/photos" className="btn btn-primary btn-lg mx-2">View Our Work</a>
-          <a href="/contact" className="btn btn-outline-secondary btn-lg mx-2">Get a Quote</a>
+          <Link to="/photos" className="btn btn-primary btn-lg mx-2">View Our Work</Link>
+          <Link to="/contact" className="btn btn-outline-secondary btn-lg mx-2">Get a Quote</Link>
         </div>
   
         {/* About Section */}
