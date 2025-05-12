@@ -3,6 +3,13 @@ body {
   font-family: 'Segoe UI', sans-serif;
 }
 
+html {
+
+  text-size-adjust: 100%;
+  
+}
+
+
 nav {
   display: flex;
   justify-content: center;

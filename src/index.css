@@ -3,17 +3,29 @@ body {
     font-family: 'Segoe UI', sans-serif;
   }
   
-  nav {
+html {
+
+  text-size-adjust: 100%;
+
+}
+
+nav {
+
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
-  }
+
+}
   
-  h1, h2 {
+h1, h2 {
+
     color: #333;
-  }
+
+}
   
-  a.btn {
+a.btn {
+
     transition: all 0.3s ease-in-out;
-  }
+
+}
