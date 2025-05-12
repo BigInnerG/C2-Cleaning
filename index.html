@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -15,12 +15,11 @@
   <body>
     <div id="root"></div>
 
-    <!-- Bootstrap JS -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-    ></script>
+    <!-- Bootstrap JS (for carousel etc.) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Vite injects this on build -->
-    <script type="module" src="/my-react-app/assets/index.jsx"></script>
+    <!-- Vite entry point -->
+    <script type="module" src="/my-react-app/src/main.jsx"></script>
+    <!-- 👆 This points to your actual source file for Vite to start from -->
   </body>
 </html>

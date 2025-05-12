@@ -49,28 +49,28 @@ function AirBnB() {
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <img
-                  src="images/airbnbroomb4.jpg"
+                  src="/my-react-app/images/airbnbroomb4.jpg"
                   className="d-block w-100"
                   alt="AirBnB Room"
                 />
               </div>
               <div className="carousel-item">
                 <img
-                  src="images/airbnbroom.jpg"
+                  src="/my-react-app/images/airbnbroom.jpg"
                   className="d-block w-100"
                   alt="AirBnB Bathroom"
                 />
               </div>
               <div className="carousel-item">
                 <img
-                  src="images/airbnbrr.jpg"
+                  src="/my-react-app/images/airbnbrr.jpg"
                   className="d-block w-100"
                   alt="AirBnB Living Room"
                 />
               </div>
               <div className="carousel-item">
                 <img
-                  src="images/airbnbshower.jpg"
+                  src="/my-react-app/images/airbnbshower.jpg"
                   className="d-block w-100"
                   alt="AirBnB Living Room"
                 />
@@ -84,21 +84,21 @@ function AirBnB() {
               </div>
               <div className="carousel-item">
                 <img
-                  src="images/airbnbbath.jpg"
+                  src="/my-react-app/images/airbnbbath.jpg"
                   className="d-block w-100"
                   alt="AirBnB Living Room"
                 />
               </div>
               <div className="carousel-item">
                 <img
-                  src="images/airbnbkit.jpg"
+                  src="/my-react-app/images/airbnbkit.jpg"
                   className="d-block w-100"
                   alt="AirBnB Living Room"
                 />
               </div>
               <div className="carousel-item">
                 <img
-                  src="images/airbnbkitchenette.jpg"
+                  src="/my-react-app/images/airbnbkitchenette.jpg"
                   className="d-block w-100"
                   alt="AirBnB Living Room"
                 />
